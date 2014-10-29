@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var indexController = require('./controllers/index.js');
-var search = require('./controllers/search-data.js');
+var search = require('./models/search-data.js');
 
 var app = express();
 app.set('view engine', 'jade');

@@ -1,4 +1,4 @@
-{
+var searchData = {
 	"programming" : {
 		"Python" : {
 			"desc" : "a high-level general-purpose programming language."
@@ -33,4 +33,5 @@
 			"desc" : "AltaVista was an early web search engine. It was once one of the most popular search engines, but it lost ground with the rise of Google and was purchased in 2003 by Yahoo!, which retained the brand but based all AltaVista searches on its own search engine."
 		}
 	}
-}
+};
+module.exports = searchData
